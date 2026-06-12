@@ -58,5 +58,10 @@ namespace ShapeDrawer
             Width = reader.ReadInteger();
             Height = reader.ReadInteger();
         }
+        public override void Scale(float factor)
+        {
+            Width = (int)(Width * factor);
+            Height = (int)(Height * factor);
+        }
     }
-}
+} 

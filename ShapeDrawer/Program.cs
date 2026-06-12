@@ -174,6 +174,10 @@ namespace ShapeDrawer
                     myDrawing.RandomizeAllColors();
                 }
 
+                if (SplashKit.KeyTyped(KeyCode.DKey))
+                {
+                    myDrawing.ScaleAllShapes(0.8f);
+                }
                 
                 myDrawing.Draw();
                 SplashKit.RefreshScreen();

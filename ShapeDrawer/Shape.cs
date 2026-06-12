@@ -92,6 +92,6 @@ namespace ShapeDrawer
             TimeStamp = reader.ReadLine();
         }
 
-        
+        public abstract void Scale(float factor);
     }
 }

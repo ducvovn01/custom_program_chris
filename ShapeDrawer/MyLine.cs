@@ -61,6 +61,14 @@ namespace ShapeDrawer
             EndY = reader.ReadInteger();
         }
 
+        public float FEndX { get; set; }
+        public float FEndY { get; set; }
 
+        public override void Scale(float factor)
+        {
+            // Tính toán khoảng cách mới dựa trên tỉ lệ factor
+            EndX = X + (FEndX - X) * factor;
+            EndY = Y + (FEndY - Y) * factor;
+        }
     }
 }

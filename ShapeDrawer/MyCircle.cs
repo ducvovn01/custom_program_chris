@@ -54,6 +54,9 @@ namespace ShapeDrawer
             base.LoadFrom(reader);
             Radius = reader.ReadInteger();
         }
-        
+        public override void Scale(float factor)
+        {
+            Radius = (int)(Radius * factor);
+        }
     }
 }

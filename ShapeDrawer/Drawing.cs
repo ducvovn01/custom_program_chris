@@ -147,5 +147,12 @@ namespace ShapeDrawer
                 s.ShapeColor = SplashKit.RandomColor(); 
             }
         }
+        public void ScaleAllShapes(float factor)
+        {
+            foreach (Shape s in _shapes)
+            {
+                s.Scale(factor);
+            }
+        }
     }
 }
