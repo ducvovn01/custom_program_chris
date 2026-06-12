@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\TransactionProgram.csproj",
-      "projectName": "TransactionProgram",
-      "projectPath": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\TransactionProgram.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\ShapeDrawer.csproj",
+      "projectName": "ShapeDrawer",
+      "projectPath": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\ShapeDrawer.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\obj\\",
       "projectStyle": "PackageReference",
