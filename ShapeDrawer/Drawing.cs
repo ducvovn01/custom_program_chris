@@ -138,5 +138,14 @@ namespace ShapeDrawer
                 reader.Close();
             }
         }
+
+        public void RandomizeAllColors()
+        {
+            foreach (Shape s in _shapes)
+            {
+                // Gán thuộc tính Color bằng màu ngẫu nhiên chuẩn SplashKit
+                s.ShapeColor = SplashKit.RandomColor(); 
+            }
+        }
     }
 }

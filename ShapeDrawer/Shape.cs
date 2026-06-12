@@ -91,6 +91,7 @@ namespace ShapeDrawer
             Y = reader.ReadInteger();
             TimeStamp = reader.ReadLine();
         }
+
         
     }
 }

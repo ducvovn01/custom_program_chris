@@ -111,6 +111,69 @@ namespace ShapeDrawer
                     }
 
                 }
+                if (SplashKit.KeyTyped (KeyCode.TKey))
+                {
+                    int ShapeNums = SplashKit.Rnd(11) + 5;
+                    for (int i = 0; i < ShapeNums; i++)
+                    {
+
+                        float RandX = SplashKit.Rnd(800);
+                        float RandY = SplashKit.Rnd(600);
+                        
+                        Color randColor = SplashKit.RandomColor();
+                        ShapeKind randomKind = (ShapeKind)SplashKit.Rnd(3);
+
+                        Shape newShape1;
+
+
+                        switch(randomKind)
+                        {
+                            case ShapeKind.Circle:
+                                newShape1 = new MyCircle();
+                                newShape1.X = RandX;
+                                newShape1.Y = RandY; 
+                                break;
+                            case ShapeKind.Rectangle:
+                                newShape1 = new MyRectangle();
+                                newShape1.X = RandX;
+                                newShape1.Y = RandY;
+                                break;
+                            case ShapeKind.Ellipse:
+                                newShape1 = new MyEllipse();
+                                newShape1.X = RandX;
+                                newShape1.Y = RandY;
+                                break;
+                            default:
+                                newShape1 = new MyLine();
+                                newShape1.X = RandX;
+                                newShape1.Y = RandY;
+                                break;
+                        }
+                        
+
+                            
+                        
+
+                    }
+                }
+                if (SplashKit.KeyTyped(KeyCode.AKey))
+                {
+                    float startX = SplashKit.MouseX();
+                    float startY = SplashKit.MouseY();
+
+                    Color letterColor = Color.Black;
+                    myDrawing.AddShape(new MyLine(letterColor, startX, startY, startX, startY + 80));
+                    myDrawing.AddShape(new MyLine(letterColor, startX, startY, startX + 50, startY));
+                    myDrawing.AddShape(new MyLine(letterColor, startX, startY + 80, startX + 50, startY + 80));
+
+
+                
+                }
+                if (SplashKit.KeyTyped(KeyCode.MKey))
+                {
+                    myDrawing.RandomizeAllColors();
+                }
+
                 
                 myDrawing.Draw();
                 SplashKit.RefreshScreen();
