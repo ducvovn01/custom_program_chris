@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\custom_program_chris\\TransactionProgram\\TransactionProgram.csproj": {}
+    "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\TransactionProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\custom_program_chris\\TransactionProgram\\TransactionProgram.csproj": {
+    "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\TransactionProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\custom_program_chris\\TransactionProgram\\TransactionProgram.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\TransactionProgram.csproj",
         "projectName": "TransactionProgram",
-        "projectPath": "C:\\Users\\USER\\Desktop\\custom_program_chris\\TransactionProgram\\TransactionProgram.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\TransactionProgram.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\custom_program_chris\\TransactionProgram\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\custom_program_chris\\ShapeDrawer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
